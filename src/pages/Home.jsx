@@ -1,16 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import CategoryMenu from '../components/CategoryMenu'
-import Fooditems from '../components/Fooditems'
-import Cart from '../components/Cart'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <CategoryMenu />
-      <Fooditems />
-      <Cart />
+      <Hero />
     </div>
   )
 }

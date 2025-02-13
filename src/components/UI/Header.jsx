@@ -20,10 +20,12 @@ const Header = () => {
         </NavLink>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-8">
-          <NavLink to="/" className="nav-link">Home</NavLink>
-          <NavLink to="/about" className="nav-link">About</NavLink>
-          <NavLink to="/contact" className="nav-link">Contact</NavLink>
+        <nav className="hidden md:flex space-x-20">
+          <NavLink to="/" className="text-gray-700 hover:text-green-500 font-semibold transition-all duration-300">Home</NavLink>
+          <NavLink to="menu" className="text-gray-700 hover:text-green-500 font-semibold transition-all duration-300">Menu</NavLink>
+          <NavLink to="/about" className="text-gray-700 hover:text-green-500 font-semibold transition-all duration-300">About</NavLink>
+          <NavLink to="/contact" className="text-gray-700 hover:text-green-500 font-semibold transition-all duration-300">Contact</NavLink>
+          <NavLink to="/github" className="text-gray-700 hover:text-green-500 font-semibold transition-all duration-300">Github</NavLink>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -46,9 +48,11 @@ const Header = () => {
             </button>
           </div>
           <div className="mt-6 space-y-6">
-            <NavLink to="/" className="mobile-link" onClick={() => setShow(false)}>Home</NavLink>
-            <NavLink to="/about" className="mobile-link" onClick={() => setShow(false)}>About</NavLink>
-            <NavLink to="/contact" className="mobile-link" onClick={() => setShow(false)}>Contact</NavLink>
+            <NavLink to="/" className="block text-lg font-semibold text-gray-700 hover:text-green-500 transition-all duration-300" onClick={() => setShow(false)}>Home</NavLink>
+            <NavLink to="menu" className="block text-lg font-semibold text-gray-700 hover:text-green-500 transition-all duration-300" onClick={() => setShow(false)}>Menu</NavLink>
+            <NavLink to="/about" className="block text-lg font-semibold text-gray-700 hover:text-green-500 transition-all duration-300" onClick={() => setShow(false)}>About</NavLink>
+            <NavLink to="/contact" className="block text-lg font-semibold text-gray-700 hover:text-green-500 transition-all duration-300" onClick={() => setShow(false)}>Contact</NavLink>
+            <NavLink to="/github" className="block text-lg font-semibold text-gray-700 hover:text-green-500 transition-all duration-300" onClick={() => setShow(false)}>Github</NavLink>
           </div>
         </nav>
       </div>

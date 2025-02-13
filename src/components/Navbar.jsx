@@ -12,7 +12,7 @@ const Navbar = () => {
         <h3 className="text-xl font-bold text-gray-600">
           {date}
         </h3>
-        <h1 className="text-2xl font-bold ">Flavoro Foods</h1>
+        <h1 className="text-2xl font-bold ">Fork & Flavours</h1>
       </div>
       <div>
         <input

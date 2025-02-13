@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           <img src="https://i.fbcd.co/products/resized/resized-1500-1000/e9dcaec4c69ea1a9634fe430035b28610f1cc9b5983fa0849e64adcd1f735aeb.webp" alt="Fork & Flavour Logo" className="w-25 h-auto mb-3 transition-transform duration-300 hover:scale-105" />
           <h2 className="text-2xl font-bold text-green-600 hover:text-green-700 transition-all duration-300">Fork & Flavour</h2>
           <p className="mt-2 text-gray-600 max-w-xs">
-            Bringing the best flavors to your plate with fresh and delicious recipes. 
+            Bringing the best flavors to your plate with LOVE❤❤❤
           </p>
         </div>
 
@@ -32,12 +32,17 @@ const Footer = () => {
           </p>
           <div className="flex justify-end space-x-4 mt-3">
             <a href="https://github.com/abdus-8747" target="_blank" rel="noopener noreferrer" 
-               className="text-gray-600 text-5xl transition-all duration-300 hover:text-green-500 hover:scale-110">
+               className="text-gray-600 text-4xl transition-all duration-300 hover:text-green-500 hover:scale-110">
               <FaGithub />
             </a>
             <a href="https://www.linkedin.com/in/abdus-samad-shamsi-a61161286/" target="_blank" rel="noopener noreferrer" 
-               className="text-gray-600 text-5xl transition-all duration-300 hover:text-green-500 hover:scale-110">
+               className="text-gray-600 text-4xl transition-all duration-300 hover:text-green-500 hover:scale-110">
               <FaLinkedin />
+              
+            </a>
+            <a href="mailto:abdussamadshamsi486@gmail.com"
+             className="text-gray-600 text-4xl transition-all duration-300 hover:text-green-500 hover:scale-110">
+              <FaEnvelope />
             </a>
           </div>
         </div>

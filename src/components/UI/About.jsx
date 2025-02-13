@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-green-500 to-green-700 py-20 text-center text-white">
+      <div className="relative bg-gradient-to-r from-green-500 to-green-700 py-35 text-center text-white">
         <h1 className="text-5xl font-extrabold">About <span className="text-yellow-300">Fork & Flavour</span></h1>
         <p className="text-lg mt-4 max-w-3xl mx-auto">
           Bringing the best food experiences to your plate with a fusion of flavors, culture, and love.
@@ -13,7 +13,7 @@ export default function About() {
 
       {/* Content Section */}
       <div className="max-w-6xl mx-auto px-6 py-12 space-y-12">
-        
+
         {/* Our Story Box */}
         <div className="bg-white shadow-lg rounded-xl p-8 flex flex-col md:flex-row items-center">
           <img
@@ -24,15 +24,15 @@ export default function About() {
           <div className="md:ml-8 mt-6 md:mt-0">
             <h2 className="text-3xl font-bold text-green-500">Our Story</h2>
             <p className="text-gray-600 mt-4 text-lg">
-  <span className="font-semibold text-green-600">Fork & Flavour</span> started with a simple idea—bringing people together through food.  
-  Over the years, we have evolved into more than just a restaurant; we are a culinary experience. Our journey began with a passion for authentic flavors, a deep respect for ingredients, and a love for the art of cooking.  
+              <span className="font-semibold text-green-600">Fork & Flavour</span> started with a simple idea—bringing people together through food.
+              Over the years, we have evolved into more than just a restaurant; we are a culinary experience. Our journey began with a passion for authentic flavors, a deep respect for ingredients, and a love for the art of cooking.
 
-  At <span className="font-semibold text-green-600">Fork & Flavour</span>, every dish tells a story, crafted with the perfect balance of taste, texture, and tradition.  
-  We believe that food is not just about eating—it's about savoring moments, creating memories, and celebrating culture.  
+              At <span className="font-semibold text-green-600">Fork & Flavour</span>, every dish tells a story, crafted with the perfect balance of taste, texture, and tradition.
+              We believe that food is not just about eating—it's about savoring moments, creating memories, and celebrating culture.
 
-  Our brand stands for excellence, innovation, and sustainability. From sourcing the finest organic ingredients to ensuring eco-friendly practices, every decision we make reflects our commitment to quality.  
-  Whether you're here for a quick bite, a family gathering, or a fine-dining experience, <span className="font-semibold text-green-600">Fork & Flavour</span> promises a journey of taste like no other.  
-</p>
+              Our brand stands for excellence, innovation, and sustainability. From sourcing the finest organic ingredients to ensuring eco-friendly practices, every decision we make reflects our commitment to quality.
+              Whether you're here for a quick bite, a family gathering, or a fine-dining experience, <span className="font-semibold text-green-600">Fork & Flavour</span> promises a journey of taste like no other.
+            </p>
 
           </div>
         </div>
@@ -82,15 +82,6 @@ export default function About() {
           </div>
           <div className="bg-white shadow-md p-6 rounded-lg text-center">
             <img
-              src="https://ts2.mm.bing.net/th?id=OIP.6xZ4JMEGlijyxbcf-R4U7gHaFo&pid=15.1"
-              alt="Manager"
-              className="w-35 h-35 mx-auto rounded-full border-4 border-green-500"
-            />
-            <h3 className="text-xl font-semibold mt-4">Sarah Lee</h3>
-            <p className="text-gray-600">Restaurant Manager</p>
-          </div>
-          <div className="bg-white shadow-md p-6 rounded-lg text-center">
-            <img
               src="https://th.bing.com/th/id/OIP.9qGWJyzSzyry6gdD-Q-IqAHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
               alt="Marketing"
               className="w-35 h-35 mx-auto rounded-full border-4 border-green-500"
@@ -98,6 +89,16 @@ export default function About() {
             <h3 className="text-xl font-semibold mt-4">Masir Jafri</h3>
             <p className="text-gray-600">Full Stack Developer</p>
           </div>
+          <div className="bg-white shadow-md p-6 rounded-lg text-center">
+            <img
+              src="https://ts2.mm.bing.net/th?id=OIP.6xZ4JMEGlijyxbcf-R4U7gHaFo&pid=15.1"
+              alt="Manager"
+              className="w-35 h-35 mx-auto rounded-full border-4 border-green-500"
+            />
+            <h3 className="text-xl font-semibold mt-4">Maherin Shaikh</h3>
+            <p className="text-gray-600">Restaurant Manager</p>
+          </div>
+          
         </div>
 
       </div>
