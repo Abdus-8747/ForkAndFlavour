@@ -73,9 +73,9 @@ const Hero = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
+            { name: "Maherin Shaikh", role: "Restaurant Manager", img: "https://ts2.mm.bing.net/th?id=OIP.6xZ4JMEGlijyxbcf-R4U7gHaFo&pid=15.1" },
+            { name: "Masir Jafri", role: "Co-Founder & Full Stack Developer", img: "https://th.bing.com/th/id/OIP.9qGWJyzSzyry6gdD-Q-IqAHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
             { name: "Alex Johnson", role: "Head Chef", img: "https://st.depositphotos.com/1158045/3086/i/950/depositphotos_30861025-stock-photo-chef-cooking-in-his-kitchen.jpg" },
-            { name: "Masir Jafri", role: "Full Stack Developer", img: "https://th.bing.com/th/id/OIP.9qGWJyzSzyry6gdD-Q-IqAHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
-            { name: "Maherin Shaikh", role: "Restaurant Manager", img: "https://ts2.mm.bing.net/th?id=OIP.6xZ4JMEGlijyxbcf-R4U7gHaFo&pid=15.1" }
           ].map((member, index) => (
             <div key={index} className="bg-white shadow-md p-6 rounded-lg text-center">
               <img
