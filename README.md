@@ -16,7 +16,6 @@ Welcome to **Fork & Flavour**, where taste meets experience! This project is des
 
 🔹 **Frontend:** React.js, Tailwind CSS, Framer Motion<br>
 🔹 **State Management:** Redux Toolkit<br>
-🔹 **Backend:** (To be integrated later, can use Node.js & Express)<br>
 🔹 **Routing:** React Router<br>
 🔹 **Animations:** Framer Motion<br>
 
